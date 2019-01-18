@@ -3,7 +3,7 @@
 ## Scope
 
 
-The goal of this image is to offer a convenient way to locally test, start and dispose of a RabbitMQ cluster.
+This image is only for the purpose of creating a convenient way to locally test, start and dispose of a RabbitMQ cluster.
 
 The version used might not be the latest one, our goal is to use this image to test with the same version as the one used by CloudAMQP.
 
