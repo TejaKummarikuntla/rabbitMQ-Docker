@@ -4,6 +4,6 @@ ADD rabbitmq_delayed_message_exchange-0.0.1.ez /usr/lib/rabbitmq/lib/rabbitmq_se
 RUN rabbitmq-plugins enable --offline rabbitmq_management  &&\
     rabbitmq-plugins enable --offline rabbitmq_shovel rabbitmq_shovel_management && \
     rabbitmq-plugins enable --offline rabbitmq_delayed_message_exchange
-
+    rabbitmq-plugins enable rabbitmq_event_exchange
 # Management plugin ports
 EXPOSE 15671 15672
